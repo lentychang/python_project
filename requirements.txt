@@ -1,0 +1,8 @@
+black==20.8b1
+flake8==3.8.3
+jupyter==1.0.0
+jupyterlab==2.2.8
+jupytext==1.6.0
+matplotlib==3.3.2
+mypy==0.782
+pip-chill==1.0.0
