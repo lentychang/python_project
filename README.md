@@ -12,6 +12,20 @@ A basic project setup for python.
 
 # Python
 
+### Coverage Test
+```
+# RUN
+coverage run -m unittest discover -s tests 
+  # discover: will search for test*.py files  
+  # -s: directoery of testing scripts  
+
+#Print result
+coverage report -m
+
+# Html result
+coverage html -d coverage_html
+```
+
 ### Formatter
 - flake8
 - black

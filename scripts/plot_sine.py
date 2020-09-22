@@ -38,4 +38,3 @@ def fib(n: int) -> Iterator[int]:
     while a < n:
         yield a
         a, b = b, a+b
-
