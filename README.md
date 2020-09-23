@@ -12,23 +12,34 @@ A basic project setup for python.
 
 # Python
 
-### Coverage Test
+### mypy CLI
+mypy only support python above version 3.4  
+It will by default search config file called `mypy.ini` or `*.mypy.ini` under current working directory.
+```
+mypy --python-version <X.Y> --ignore-missing-imports [filename or directory]
+
+# mypy --python-version 3.4 --ignore-missing-imports file1 file2 dir1
+```
+### Coverage Test CLI
+It will by default search config file called `.coveragerc` under current working directory.
 ```
 # RUN
 coverage run -m unittest discover -s tests 
   # discover: will search for test*.py files  
   # -s: directoery of testing scripts  
 
-#Print result
+# Print result
 coverage report -m
 
 # Html result
 coverage html -d coverage_html
 ```
 
-### Formatter
-- flake8
-- black
+### Formatter: Black CLI
+```
+black <filename or directory>
+```  
+For vscode, you could install extension `emeraldwalk.runonsave` to format your scripts on save.
 
 # Jupyter notebook
 
