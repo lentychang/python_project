@@ -1,5 +1,10 @@
 # python_project
-A basic project setup for python.
+A basic project setup for python.  
+  
+| | master | devel |
+|---|---|---|
+| Build & Test | ![CI](https://github.com/lentychang/python_project/workflows/CI/badge.svg?branch=master) | |
+| Test Coverage | [![codecov](https://codecov.io/gh/lentychang/python_project/branch/master/graph/badge.svg)](https://codecov.io/gh/lentychang/python_project) | |  
 
 
 ## Package management
@@ -55,3 +60,7 @@ This only works with jupyter-lab and it requires some setup for the ipynb file.
 jupyter nbextension install https://github.com/drillan/jupyter-black/archive/master.zip -- user
 jupyter nbextension enable jupyter-black-master/jupyter-black
 ```
+
+
+# Ref
+[repo-badges](https://github.com/dwyl/repo-badges)
