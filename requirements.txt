@@ -1,5 +1,5 @@
 wheel
-black==20.8b1
+black==21.4b2
 coverage==5.3
 flake8==3.8.3
 jupyter==1.0.0
