@@ -1,7 +1,7 @@
 wheel
 black==21.7b0
 coverage==6.0.1
-flake8==3.9.2
+flake8==4.0.1
 jupyter==1.0.0
 jupyterlab==3.1.7
 jupytext==1.11.4
